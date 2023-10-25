@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 html
 {
     background: rgb(238,174,202);
@@ -20,10 +24,34 @@ h2{
 }
 h3{
     font-size: 22px;
-    color: white;
-    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.322);
     font-family: 'Roboto', sans-serif;
 }
 p{
     font-size: 20px;
+}
+.centro{
+    display: flex;
+    margin: 6%;
+    padding: 2%;
+    justify-content: space-between;
+    background-color: white;
+    border-radius: 30px;
+}
+.caracteristicas{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.caracteristicas h2{
+    background-color: rgb(148,187,233,1);
+    border-radius: 40px;
+}
+.tipos{
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+}
+.tipos h2{
+    background-color: rgb(238,174,202,1);
+    border-radius: 40px;
 }
